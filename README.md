@@ -1,7 +1,7 @@
 # Airbnb NYC Listings Analysis
 
 ## Overview
-This project analyzes the New York City Airbnb dataset to uncover insights about pricing, availability, and neighborhood trends. The dataset contains detailed information about Airbnb listings in NYC, including location, price, room type, and availability. The goal of this analysis is to understand the factors influencing Airbnb prices and availability across different neighborhoods in NYC.
+This project analyzes the New York City Airbnb dataset to uncover insights about pricing, availability, and neighbourhood trends. The dataset contains detailed information about Airbnb listings in NYC, including location, price, room type, and availability. The goal of this analysis is to understand the factors influencing Airbnb prices and availability across different neighbourhoods in NYC.
 
 
 ## Dataset
@@ -9,8 +9,8 @@ The dataset used in this project is the [New York City Airbnb Open Data](https:/
 - `id`: Unique identifier for each listing.
 - `name`: Name of the listing.
 - `host_id`: Unique identifier for the host.
-- `neighbourhood_group`: Neighborhood group (e.g., Manhattan, Brooklyn).
-- `neighbourhood`: Neighborhood name.
+- `neighbourhood_group`: Neighbourhood group (e.g., Manhattan, Brooklyn).
+- `neighbourhood`: Neighbourhood name.
 - `latitude`: Latitude coordinates of the listing.
 - `longitude`: Longitude coordinates of the listing.
 - `room_type`: Type of room (e.g., Entire home/apt, Private room, Shared room).
@@ -24,9 +24,9 @@ The dataset used in this project is the [New York City Airbnb Open Data](https:/
 
 
 ## Problem Description
-The goal of this analysis is to explore and visualize trends in Airbnb listings in NYC. Specifically, we aim to:
-1. Understand the distribution of listings by neighborhood and room type.
-2. Analyze price trends and availability across different neighborhoods.
+The goal of this analysis is to explore and visualise trends in Airbnb listings in NYC. Specifically, we aim to:
+1. Understand the distribution of listings by neighbourhood and room type.
+2. Analyse price trends and availability across different neighbourhoods.
 3. Identify correlations between variables such as price, availability, and number of reviews.
 4. Use clustering to group listings based on location and price.
 
@@ -48,9 +48,9 @@ The Jupyter Notebook includes the following sections:
 - Count of unique values for categorical columns (e.g., `neighbourhood_group`, `room_type`).
 
 ### 4. Data Visualization
-- Distribution of listings by neighborhood group and room type.
-- Distribution of prices and average prices by neighborhood group and room type.
-- Distribution of availability and average availability by neighborhood group.
+- Distribution of listings by neighbourhood group and room type.
+- Distribution of prices and average prices by neighbourhood group and room type.
+- Distribution of availability and average availability by neighbourhood group.
 - Correlation matrix to show relationships between numerical variables.
 
 ### 5. Outlier Detection
@@ -60,14 +60,14 @@ The Jupyter Notebook includes the following sections:
 ### 6. Clustering
 - Listings are clustered into 5 groups based on location (`latitude`, `longitude`) and price using KMeans clustering.
 
-### 7. Predictive Modeling
+### 7. Predictive Modelling
 - A linear regression model is trained to predict prices based on features like `latitude`, `longitude`, `minimum_nights`, `number_of_reviews`, `reviews_per_month`, and `availability_365`.
 - The model's performance is evaluated using Mean Squared Error (MSE), which is 7208.17.
 
 
 
 ## Key Insights
-### 1. Listings by Neighborhood
+### 1. Listings by Neighbourhood
 - Manhattan has the highest number of listings (21,661), followed by Brooklyn (20,104).
 - Staten Island has the fewest listings, indicating it’s less popular for Airbnb.
 
@@ -78,7 +78,7 @@ The Jupyter Notebook includes the following sections:
 
 ### 3. Room Types
 - Entire homes/apartments are the most common and tend to be more expensive, with an average price of $211.79.
-- Shared rooms are the cheapest, making them a good option for budget travelers.
+- Shared rooms are the cheapest, making them a good option for budget travellers.
 
 ### 4. Availability
 - Listings in Staten Island are the most available (average availability > 200 days/year).
@@ -90,20 +90,20 @@ The Jupyter Notebook includes the following sections:
 
 
 
-## Visualizations
-Here are some key visualizations from the analysis:
-1. Listings by Neighborhood Group:
-   ![Listings by Neighborhood Group](images/listings_by_neighborhood.png)
+## Visualisations
+Here are some key visualisations from the analysis:
+1. Listings by Neighbourhood Group:
+   ![Listings by Neighbourhood Group](images/listings_by_neighbourhood.png)
 2. Price Distribution:
    ![Price Distribution](images/price_distribution.png)
-3. Average Price by Neighborhood Group:
-   ![Average Price by Neighborhood Group](images/avg_price_by_neighborhood.png)
+3. Average Price by Neighbourhood Group:
+   ![Average Price by Neighbourhood Group](images/avg_price_by_neighbourhood.png)
 4. Clustering of Listings by Location and Price:
    ![Clustering of Listings](images/clustering.png)
 
 
 
-## Modeling
+## Modelling
 ### Linear Regression
 - A linear regression model was built to predict listing prices based on features like latitude, longitude, and availability.
 - The model achieved a Mean Squared Error (MSE) of 7208.17.
@@ -111,14 +111,14 @@ Here are some key visualizations from the analysis:
 
 
 ## Conclusion
-This analysis provides valuable insights into Airbnb listings in NYC, helping potential hosts and guests make informed decisions. The visualizations highlight key trends in pricing, availability, and neighborhood preferences. The clustering and predictive modeling further enhance our understanding of the data.
+This analysis provides valuable insights into Airbnb listings in NYC, helping potential hosts and guests make informed decisions. The visualisations highlight key trends in pricing, availability, and neighbourhood preferences. The clustering and predictive modeling further enhance our understanding of the data.
 
 
 
 ## Future Work
 - Explore additional features such as proximity to landmarks or public transportation.
 - Build more advanced predictive models (e.g., Random Forest, Gradient Boosting) to improve price prediction accuracy.
-- Analyze seasonal trends in pricing and availability.
+- Analyse seasonal trends in pricing and availability.
 
 
 
