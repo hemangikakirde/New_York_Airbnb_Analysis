@@ -36,7 +36,7 @@ The goal of this analysis is to explore and visualise trends in Airbnb listings 
 The Jupyter Notebook includes the following sections:
 
 ### 1. Data Loading
-- The dataset is loaded using `pandas` from the `AB_NYC_2019.csv` file.
+- The dataset is loaded using `pandas` from the [AB_NYC_2019.csv](AB_NYC_2019.csv) file.
 
 ### 2. Data Cleaning
 - Irrelevant columns (`id`, `host_name`, `last_review`) are dropped.
