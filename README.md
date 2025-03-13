@@ -5,7 +5,7 @@ This project delves into the New York City Airbnb dataset to uncover insights ab
 
 ## Dataset
 The dataset used in this project is the [New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) from Kaggle. Key columns include:
-- `id`: Unique identifier for each listing.
+- id: Unique identifier for each listing.
 - `name`: Name of the listing.
 - `host_id`: Unique identifier for the host.
 - `neighbourhood_group`: Neighborhood group (e.g., Manhattan, Brooklyn).
